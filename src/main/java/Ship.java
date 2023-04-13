@@ -1,6 +1,6 @@
 import java.awt.Point;
 
-public abstract class Ship {
+public class Ship {
     protected int hitPoints;
     protected int size;
     protected Point start;
