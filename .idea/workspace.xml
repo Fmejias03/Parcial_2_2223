@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c90643bf-4113-4813-b792-7360c07fe32b" name="Changes" comment="Clase ship creada">
+    <list default="true" id="c90643bf-4113-4813-b792-7360c07fe32b" name="Changes" comment="Clase Ship terminada">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Ship.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Ship.java" afterDir="false" />
     </list>
@@ -62,7 +62,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1681377925544</updated>
-      <workItem from="1681377927194" duration="1672000" />
+      <workItem from="1681377927194" duration="3344000" />
     </task>
     <task id="LOCAL-00001" summary="Cracion clases ejer 4">
       <created>1681379290379</created>
@@ -85,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681379546256</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Atributos creados">
+      <created>1681379737211</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1681379737211</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,6 +102,8 @@
     <MESSAGE value="Cracion clases ejer 4" />
     <MESSAGE value="cLASE ENUM TERMINADA" />
     <MESSAGE value="Clase ship creada" />
-    <option name="LAST_COMMIT_MESSAGE" value="Clase ship creada" />
+    <MESSAGE value="Atributos creados" />
+    <MESSAGE value="Clase Ship terminada" />
+    <option name="LAST_COMMIT_MESSAGE" value="Clase Ship terminada" />
   </component>
 </project>
