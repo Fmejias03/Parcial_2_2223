@@ -1,2 +1,4 @@
-public class CardinalPoints {
+public enum CardinalPoints {
+    NORTH, EAST, SOUTH, WEST;
+
 }
