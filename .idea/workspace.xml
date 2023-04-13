@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c90643bf-4113-4813-b792-7360c07fe32b" name="Changes" comment="Clase Battleship Terminada" />
+    <list default="true" id="c90643bf-4113-4813-b792-7360c07fe32b" name="Changes" comment="Clase Canoe Terminada">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,7 +66,7 @@
       <updated>1681377925544</updated>
       <workItem from="1681377927194" duration="5664000" />
       <workItem from="1681393424182" duration="236000" />
-      <workItem from="1681400031976" duration="714000" />
+      <workItem from="1681400031976" duration="1415000" />
     </task>
     <task id="LOCAL-00001" summary="Cracion clases ejer 4">
       <created>1681379290379</created>
@@ -136,7 +138,35 @@
       <option name="project" value="LOCAL" />
       <updated>1681400736682</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Clase Frigate creada">
+      <created>1681400875355</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1681400875355</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Clase Frigate terminada">
+      <created>1681400939026</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1681400939026</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Clase Canoe creada">
+      <created>1681400999367</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1681400999367</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Clase Canoe Terminada">
+      <created>1681401031369</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1681401031369</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,6 +184,10 @@
     <MESSAGE value="Clase Battleship Creada" />
     <MESSAGE value="Atributos Battleship creados" />
     <MESSAGE value="Clase Battleship Terminada" />
-    <option name="LAST_COMMIT_MESSAGE" value="Clase Battleship Terminada" />
+    <MESSAGE value="Clase Frigate creada" />
+    <MESSAGE value="Clase Frigate terminada" />
+    <MESSAGE value="Clase Canoe creada" />
+    <MESSAGE value="Clase Canoe Terminada" />
+    <option name="LAST_COMMIT_MESSAGE" value="Clase Canoe Terminada" />
   </component>
 </project>
