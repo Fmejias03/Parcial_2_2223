@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c90643bf-4113-4813-b792-7360c07fe32b" name="Changes" comment="Cracion clases ejer 4">
-      <change beforePath="$PROJECT_DIR$/src/main/java/CardinalPoints.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CardinalPoints.java" afterDir="false" />
+    <list default="true" id="c90643bf-4113-4813-b792-7360c07fe32b" name="Changes" comment="Clase ship creada">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Ship.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Ship.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +22,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -39,7 +43,6 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -59,7 +62,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1681377925544</updated>
-      <workItem from="1681377927194" duration="1365000" />
+      <workItem from="1681377927194" duration="1672000" />
     </task>
     <task id="LOCAL-00001" summary="Cracion clases ejer 4">
       <created>1681379290379</created>
@@ -68,7 +71,21 @@
       <option name="project" value="LOCAL" />
       <updated>1681379290379</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="cLASE ENUM TERMINADA">
+      <created>1681379430921</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1681379430921</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Clase ship creada">
+      <created>1681379546256</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1681379546256</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -76,6 +93,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Cracion clases ejer 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cracion clases ejer 4" />
+    <MESSAGE value="cLASE ENUM TERMINADA" />
+    <MESSAGE value="Clase ship creada" />
+    <option name="LAST_COMMIT_MESSAGE" value="Clase ship creada" />
   </component>
 </project>
