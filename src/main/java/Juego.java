@@ -18,31 +18,44 @@ public class Juego {
         User user1 = new User(Barcos1);
         User user2 = new User(Barcos2);
 
-        // Iniciar juego
-        boolean isUser1Turn = true;
-        while (user1.isAlive() && user2.isAlive()) {
-            User currentUser = isUser1Turn ? user1 : user2;
-            User otherUser = isUser1Turn ? user2 : user1;
-            System.out.println("Turno del usuario " + (isUser1Turn ? "1" : "2"));
-            System.out.println("Ingrese las coordenadas de disparo (x,y): ");
-            String[] shotCoordinates = scanner.nextLine().split(",");
-            Point shotPoint = new Point(Integer.parseInt(shotCoordinates[0]), Integer.parseInt(shotCoordinates[1]));
-            if (currentUser.attack(shotPoint, otherUser)) {
+       // Iniciar juego
+        while (true){
+            System.out.println("Turno del usuario 1");
+            Point shotPoint1 = getShotUser(scanner);
+            boolean isHit = user1.attack(shotPoint1, user2);
+            if (isHit) {
                 System.out.println("¡Le diste a un barco!");
             } else {
                 System.out.println("¡Fallaste!");
             }
-            isUser1Turn = !isUser1Turn;
+
+            if (!user2.isAlive()) {
+                System.out.println("¡El usuario 1 ganó!");
+                break;
+            }
+
+            System.out.println("Turno del usuario 2");
+            Point shotPoint2 = getShotUser(scanner);
+            isHit = user2.attack(shotPoint2, user1);
+            if (isHit) {
+                System.out.println("¡Le diste a un barco!");
+            } else {
+                System.out.println("¡Fallaste!");
+            }
+
+            if (!user1.isAlive()) {
+                System.out.println("¡El usuario 2 ganó!");
+                break;
+            }
+
         }
+    }
 
-        if (user1.isAlive()) {
-            System.out.println("¡El usuario 1 ganó!");
-        } else {
-            System.out.println("¡El usuario 2 ganó!");
-        }
-
-
-
+    private static Point getShotUser(Scanner scanner) {
+        System.out.println("Ingrese las coordenadas de disparo (x,y): ");
+        String[] shotCoordinates = scanner.nextLine().split(",");
+        Point shotPoint = new Point(Integer.parseInt(shotCoordinates[0]), Integer.parseInt(shotCoordinates[1]));
+        return shotPoint;
 
     }
 

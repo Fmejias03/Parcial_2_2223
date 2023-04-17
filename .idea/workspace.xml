@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c90643bf-4113-4813-b792-7360c07fe32b" name="Changes" comment="Creado metodo getBarcos">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Battleship.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Battleship.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Canoe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Canoe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Frigate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Frigate.java" afterDir="false" />
+    <list default="true" id="c90643bf-4113-4813-b792-7360c07fe32b" name="Changes" comment="Main medio hecho">
+      <change afterPath="$PROJECT_DIR$/src/test/java/UserTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Juego.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Juego.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Ship.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Ship.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +53,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "settings.sync",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -106,7 +102,7 @@
       <workItem from="1681400031976" duration="4830000" />
       <workItem from="1681755363823" duration="305000" />
       <workItem from="1681755742792" duration="1323000" />
-      <workItem from="1681757075560" duration="939000" />
+      <workItem from="1681757075560" duration="1262000" />
     </task>
     <task id="LOCAL-00001" summary="Cracion clases ejer 4">
       <created>1681379290379</created>
@@ -241,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681757050340</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Main medio hecho">
+      <created>1681758114813</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1681758114814</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -268,6 +271,7 @@
     <MESSAGE value="Main" />
     <MESSAGE value="Comienzo de juego terminado" />
     <MESSAGE value="Creado metodo getBarcos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creado metodo getBarcos" />
+    <MESSAGE value="Main medio hecho" />
+    <option name="LAST_COMMIT_MESSAGE" value="Main medio hecho" />
   </component>
 </project>
