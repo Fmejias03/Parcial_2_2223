@@ -4,7 +4,7 @@ public class Battleship extends Ship {
     private boolean[] isolatedContainers;
 
     public Battleship(Point start, Point end) {
-        super(5, start, end);
+        super(start, end);
         isolatedContainers = new boolean[3];
         if (start.getX() == end.getX()) {
             direction = CardinalPoints.NORTH;

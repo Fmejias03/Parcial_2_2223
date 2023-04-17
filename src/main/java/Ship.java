@@ -7,7 +7,7 @@ public class Ship {
     protected Point end;
     protected CardinalPoints direction;
 
-    public Ship(int size, Point start, Point end) {
+    public Ship(Point start, Point end) {
         this.size = size;
         this.hitPoints = 0;
         this.start = start;
