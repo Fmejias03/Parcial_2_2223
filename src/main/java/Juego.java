@@ -45,4 +45,20 @@ public class Juego {
 
 
     }
+
+    private static ArrayList<Ship> getBarcosUser(Scanner scanner) {
+        ArrayList<Ship> ships = new ArrayList<>();
+        System.out.println("Ingrese la cantidad de barcos: ");
+        int shipCount = scanner.nextInt();
+        scanner.nextLine();
+        for (int i = 0; i < shipCount; i++) {
+            System.out.println("Ingrese las coordenadas de inicio y fin del barco " + (i + 1) + " (x1,y1,x2,y2): ");
+            String[] shipCoordinates = scanner.nextLine().split(",");
+            Point start = new Point(Integer.parseInt(shipCoordinates[0]), Integer.parseInt(shipCoordinates[1]));
+            Point end = new Point(Integer.parseInt(shipCoordinates[2]), Integer.parseInt(shipCoordinates[3]));
+            Ship ship = new Ship(start, end);
+            ships.add(ship);
+        }
+        return ships;
+    }
 }
