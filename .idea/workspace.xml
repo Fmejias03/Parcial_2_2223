@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c90643bf-4113-4813-b792-7360c07fe32b" name="Changes" comment="Clase Hash para hashmap">
-      <change afterPath="$PROJECT_DIR$/src/test/java/UserTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Hash.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Hash.java" afterDir="false" />
+    <list default="true" id="c90643bf-4113-4813-b792-7360c07fe32b" name="Changes" comment="Creadas clases test">
+      <change beforePath="$PROJECT_DIR$/src/test/java/ShipTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ShipTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UserTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -102,7 +102,7 @@
       <workItem from="1681400031976" duration="4830000" />
       <workItem from="1681755363823" duration="305000" />
       <workItem from="1681755742792" duration="1323000" />
-      <workItem from="1681757075560" duration="2788000" />
+      <workItem from="1681757075560" duration="3103000" />
     </task>
     <task id="LOCAL-00001" summary="Cracion clases ejer 4">
       <created>1681379290379</created>
@@ -265,7 +265,21 @@
       <option name="project" value="LOCAL" />
       <updated>1681759781854</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Terminado Tabla Hash">
+      <created>1681759894688</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1681759894688</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Creadas clases test">
+      <created>1681760120491</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1681760120491</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -295,6 +309,8 @@
     <MESSAGE value="Main medio hecho" />
     <MESSAGE value="Retoques clase main" />
     <MESSAGE value="Clase Hash para hashmap" />
-    <option name="LAST_COMMIT_MESSAGE" value="Clase Hash para hashmap" />
+    <MESSAGE value="Terminado Tabla Hash" />
+    <MESSAGE value="Creadas clases test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creadas clases test" />
   </component>
 </project>
