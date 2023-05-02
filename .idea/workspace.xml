@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c90643bf-4113-4813-b792-7360c07fe32b" name="Changes" comment="Creadas clases test">
-      <change beforePath="$PROJECT_DIR$/src/test/java/ShipTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ShipTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UserTest.java" afterDir="false" />
+    <list default="true" id="c90643bf-4113-4813-b792-7360c07fe32b" name="Changes" comment="Clases test creadas sin terminar">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Grafo/Arista.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Grafo/Grafo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Grafo/Puerto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -36,27 +38,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -65,7 +67,20 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Juego">
+  <component name="RunManager" selected="Application.Grafo">
+    <configuration name="Grafo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Grafo.Grafo" />
+      <module name="Parcial_2_2223" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Grafo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Juego" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Juego" />
       <module name="Parcial_2_2223" />
@@ -84,6 +99,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Grafo" />
         <item itemvalue="Application.Juego" />
         <item itemvalue="JUnit.ShipTest" />
       </list>
@@ -102,7 +118,10 @@
       <workItem from="1681400031976" duration="4830000" />
       <workItem from="1681755363823" duration="305000" />
       <workItem from="1681755742792" duration="1323000" />
-      <workItem from="1681757075560" duration="3103000" />
+      <workItem from="1681757075560" duration="3868000" />
+      <workItem from="1681918655205" duration="523000" />
+      <workItem from="1681921727369" duration="1481000" />
+      <workItem from="1683038369636" duration="4749000" />
     </task>
     <task id="LOCAL-00001" summary="Cracion clases ejer 4">
       <created>1681379290379</created>
@@ -279,14 +298,20 @@
       <option name="project" value="LOCAL" />
       <updated>1681760120491</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Clases test creadas sin terminar">
+      <created>1681760938682</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1681760938682</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Cracion clases ejer 4" />
     <MESSAGE value="cLASE ENUM TERMINADA" />
     <MESSAGE value="Clase ship creada" />
     <MESSAGE value="Atributos creados" />
@@ -311,6 +336,7 @@
     <MESSAGE value="Clase Hash para hashmap" />
     <MESSAGE value="Terminado Tabla Hash" />
     <MESSAGE value="Creadas clases test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creadas clases test" />
+    <MESSAGE value="Clases test creadas sin terminar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Clases test creadas sin terminar" />
   </component>
 </project>
